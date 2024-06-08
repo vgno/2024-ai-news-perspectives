@@ -38,7 +38,7 @@ This inter-rater agreement was later used to determine the combination of LLMs t
 
 ## Example assessments
 
-Here are examples of article classified as each perspective, and an explanation for the classification from GPT-4 Omni.
+Here are examples of articles classified in each category, and an explanation for the classification from GPT-4 Omni.
 
 | Article | Perspective  | Explanation  |
 |---------|--------------|--------------|
@@ -52,5 +52,4 @@ After analyzing all 1,009 articles, the chosen model ensemble classified 470 art
 
 ![Model distribution](img/dist.jpg)
 
-It seems Anthropic Claude 3 Opus was the most conservative in its classification, with 60% of articles classified as _neutral_. OpenAI GPT-4 Turbo seems most eager to classify articles to a non-neutral perspective, with only 28% of articles classified as _neutral_, a full 18 percentage points below the average.
-
+Anthropic Claude 3 Opus appeared to be the most conservative in its classification, with 60% of articles deemed neutral. In contrast, OpenAI GPT-4 Turbo was more inclined to assign a non-neutral perspective, classifying only 28% of articles as neutral—18 percentage points below the average.
